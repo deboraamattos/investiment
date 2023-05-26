@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/valor_mensal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor Mensal" />
+
+    <EditText
+        android:id="@+id/valor_ciclo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor Ciclo" />
+
+    <EditText
+        android:id="@+id/qtde_meses_investimento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Qtde Meses de Investimento" />
+
+    <EditText
+        android:id="@+id/qtde_meses_ciclo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Qtde Meses de um Ciclo" />
+
+    <EditText
+        android:id="@+id/porcentagem_retorno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Porcentagem de Retorno" />
+
+    <EditText
+        android:id="@+id/saldo_inicial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Saldo Inicial" />
+
+    <Button
+        android:id="@+id/calcular_button_teste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular" />
+
+</LinearLayout>
